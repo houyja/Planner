@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="429f5510-cf9b-4e5d-a2a8-1af40851dfdf" ChangeDateTime="06/23/2018 19:40:34">
+    <Property Name="ElementName" Value="[dbo].[Tasks_SuccessCriteriaType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_SuccessCriteriaType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7912404d-6540-4c41-b6e0-d9ee2c57c25a" ChangeDateTime="06/23/2018 19:40:44">
+    <Property Name="ElementName" Value="[dbo].[Tasks_SuccessCriteriaType].[TypeID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_SuccessCriteriaType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="3103d6aa-a93e-4f8b-b0e7-821a7928224a" ChangeDateTime="06/23/2018 19:43:23">
+    <Property Name="ElementName" Value="[dbo].[Tasks_SuccessCriteria].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_SuccessCriteria]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SuccessCriteriaID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="85898ea0-e39c-43cb-b158-377a543dd56a" ChangeDateTime="06/23/2018 19:43:30">
+    <Property Name="ElementName" Value="[dbo].[Tasks_SuccessCriteriaType].[ID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_SuccessCriteriaType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SuccessCriteriaTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4ab09ab3-cd32-4e65-8a58-25297eba8d2d" ChangeDateTime="06/23/2018 19:44:44">
+    <Property Name="ElementName" Value="[dbo].[Tasks_SuccessCriteria].[Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_SuccessCriteria]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Name" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f8ca3d03-b223-4ad8-ad11-7e5cde1ca23e" ChangeDateTime="06/23/2018 19:47:33">
+    <Property Name="ElementName" Value="[dbo].[Tasks_SuccessCriteria].[MinMacResult]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_SuccessCriteria]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MinMaxResult" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1c7ae2f9-71fb-48df-9f14-aefb21deee08" ChangeDateTime="06/23/2018 20:03:09">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Task].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TaskID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9a20b9a5-645a-4348-ad7e-6a420b11ce0a" ChangeDateTime="06/23/2018 20:11:22">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Task].[TaskScheduleID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RepeatTaskID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="daaa1ed2-b5ed-485d-9196-0245bc08a34a" ChangeDateTime="06/23/2018 20:40:31">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Objective].[SuccessCriteriaID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Objective]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ObjectiveID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="49504a72-320f-4f1e-98b4-30647bbf7591" ChangeDateTime="06/23/2018 20:40:37">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Objective].[SuccessCriteriaTypeID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Objective]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ObjectiveTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e18c3ca-9645-42bb-abba-593a303f5d9c" ChangeDateTime="06/23/2018 20:40:46">
+    <Property Name="ElementName" Value="[dbo].[Tasks_ObjectiveType].[SuccessCriteriaTypeID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_ObjectiveType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ObjectiveTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="1fc023fb-3094-42c7-aabb-56a065a3fa7f" ChangeDateTime="06/23/2018 20:51:51">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Rule].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Rule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RuleID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9765d580-9825-4457-b094-d04283d087d7" ChangeDateTime="06/23/2018 20:56:22">
+    <Property Name="ElementName" Value="[dbo].[Tasks_ScheduleRule].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_ScheduleRule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TaskID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0fb11cc8-ce24-49dc-975d-1e23018e2895" ChangeDateTime="06/23/2018 20:56:52">
+    <Property Name="ElementName" Value="[dbo].[Tasks_ScheduleRule].[TaskID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_ScheduleRule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ScheduleID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="aa41e941-cb4d-4883-b2ab-e033af0db40c" ChangeDateTime="06/23/2018 20:56:54">
+    <Property Name="ElementName" Value="[dbo].[Tasks_ScheduleRule].[ScheduleID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_ScheduleRule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="TaskID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="fde917ab-bff3-4243-ae7a-6ac0c476a82d" ChangeDateTime="06/23/2018 20:59:51">
+    <Property Name="ElementName" Value="[dbo].[Tasks_ScheduleType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_ScheduleType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ScheduleTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8fbf9e1a-ec93-4862-b0ad-8de843328f9a" ChangeDateTime="06/23/2018 21:19:08">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Task].[originalDueDate]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OriginalDueDate" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="bb1cf33a-14c8-4148-9a6c-fef4f9c88d97" ChangeDateTime="06/23/2018 21:19:27">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Task].[RepeatTaskID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RuleID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="055051b3-ef13-4ccd-8698-5a8f836fcd60" ChangeDateTime="06/23/2018 21:47:11">
+    <Property Name="ElementName" Value="[dbo].[Tasks_ScheduleRule].[ScheduleType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_ScheduleRule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ScheduleTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98a252b5-10da-4360-98fe-1a1479379e1d" ChangeDateTime="06/23/2018 21:48:18">
+    <Property Name="ElementName" Value="[dbo].[Tasks_Rule].[OriginalTask]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_Rule]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="OriginalTaskID" />
+  </Operation>
+</Operations>
