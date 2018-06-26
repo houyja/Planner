@@ -140,4 +140,137 @@
     <Property Name="ParentElementType" Value="SqlTable" />
     <Property Name="NewName" Value="OriginalTaskID" />
   </Operation>
+  <Operation Name="Rename Refactor" Key="9359be34-43ac-4d96-b85a-7755cfff958f" ChangeDateTime="06/25/2018 20:59:18">
+    <Property Name="ElementName" Value="[dbo].[CalendarItem].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CalendarItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CalendarItemID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e491c892-ef40-4e7c-b3b2-50580a70b8d8" ChangeDateTime="06/25/2018 21:01:09">
+    <Property Name="ElementName" Value="[dbo].[CalendarItem].[Status]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CalendarItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Complete" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c2d520da-801e-47d3-8525-886a88f7d955" ChangeDateTime="06/25/2018 21:01:28">
+    <Property Name="ElementName" Value="[dbo].[CalendarItem].[Complete]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CalendarItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Status" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="9de7f9d9-30f5-4d2f-914b-fe6485258343" ChangeDateTime="06/25/2018 21:06:13">
+    <Property Name="ElementName" Value="[dbo].[CalendarItemType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CalendarItemType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CalendarItemTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="be9edad1-1004-4a8c-aad7-6f4362777b0c" ChangeDateTime="06/25/2018 21:07:27">
+    <Property Name="ElementName" Value="[dbo].[CalendarItemType].[ItemName]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CalendarItemType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ItemTypeName" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="8a24e8de-8891-4682-bd2e-790a93de9d3e" ChangeDateTime="06/25/2018 21:07:31">
+    <Property Name="ElementName" Value="[dbo].[CalendarItemType].[ItemDesc]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[CalendarItemType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ItemTypeDesc" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="c360b653-b29c-48fc-8cb9-351c1af7777a" ChangeDateTime="06/25/2018 21:10:53">
+    <Property Name="ElementName" Value="[dbo].[Tasks_CalendarItem].[CalendarItemTypeID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_CalendarItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CalendarItemType" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="73abaf18-2a18-4e07-9a3b-46f1151a8f36" ChangeDateTime="06/25/2018 21:11:05">
+    <Property Name="ElementName" Value="[dbo].[Tasks_CalendarItem].[AccountID]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Tasks_CalendarItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Account" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="98aad88a-854f-431b-b562-a0ec45db7391" ChangeDateTime="06/25/2018 21:32:51">
+    <Property Name="ElementName" Value="[dbo].[Calendar_Task].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_Task]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="CalendarItemID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e175439-f1a3-4b7e-8aa6-95ead990fc83" ChangeDateTime="06/25/2018 21:38:21">
+    <Property Name="ElementName" Value="[dbo].[Calendar_SubTask].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_SubTask]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubTaskID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="75553a96-1fdc-4b79-9587-8ae2334fa55b" ChangeDateTime="06/25/2018 21:44:38">
+    <Property Name="ElementName" Value="[dbo].[Calendar_SubTask].[MinMacValue]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_SubTask]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MinMacTarget" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="053ca0c9-f416-4a1a-bd67-9a51ac994811" ChangeDateTime="06/25/2018 21:44:52">
+    <Property Name="ElementName" Value="[dbo].[Calendar_SubTask].[MinMacTarget]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_SubTask]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="MinMaxTarget" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="138ede12-05ed-4722-ba97-1dd325f20867" ChangeDateTime="06/25/2018 22:50:22">
+    <Property Name="ElementName" Value="[dbo].[Calendar_SubTaskType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_SubTaskType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="SubTaskTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="0f1213f8-2349-4895-852f-162361492e9a" ChangeDateTime="06/25/2018 23:02:55">
+    <Property Name="ElementName" Value="[dbo].[Calendar_CalendarItem].[IsActive]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_CalendarItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="ActiveRecurringItem" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e92f84d5-b8d7-4032-98c7-643bf86fd6bc" ChangeDateTime="06/25/2018 23:03:43">
+    <Property Name="ElementName" Value="[dbo].[Calendar_CalendarItem].[ActiveRecurringItem]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_CalendarItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="IsActive" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6e809cbc-ece4-430e-a2e6-8e611a64216e" ChangeDateTime="06/26/2018 00:02:50">
+    <Property Name="ElementName" Value="[dbo].[RecurringItem].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[RecurringItem]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RecurringItemID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="780f972b-625b-41e8-adae-ccf3120ed2d6" ChangeDateTime="06/26/2018 00:07:55">
+    <Property Name="ElementName" Value="[dbo].[Calendar_RecurringItemPlan].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_RecurringItemPlan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RecurringPlanID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="74ae386a-8a79-4e3a-bba5-5c524688fa9b" ChangeDateTime="06/26/2018 00:10:05">
+    <Property Name="ElementName" Value="[dbo].[Calendar_RecurringPlanType].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_RecurringPlanType]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RecurringPlanTypeID" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="ab218d57-b52a-4dda-bc60-e9ad1f0d04a9" ChangeDateTime="06/26/2018 00:11:02">
+    <Property Name="ElementName" Value="[dbo].[Calendar_RecurringPlan].[RecurringType]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Calendar_RecurringPlan]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="RecurringPlanType" />
+  </Operation>
 </Operations>

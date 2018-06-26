@@ -68,14 +68,6 @@
     </SqlCmdVariable>
   </ItemGroup>
   <ItemGroup>
-    <Build Include="dbo\Tables\Tasks_ObjectiveType.sql" />
-    <Build Include="dbo\Tables\Tasks_Objective.sql" />
-    <Build Include="dbo\Tables\Tasks_Task.sql" />
-    <Build Include="dbo\Tables\Tasks_Rule.sql" />
-    <Build Include="dbo\Tables\Tasks_ScheduleRule.sql" />
-    <Build Include="dbo\Tables\Tasks_ScheduleType.sql" />
-  </ItemGroup>
-  <ItemGroup>
     <RefactorLog Include="PlannerDatabase.refactorlog" />
   </ItemGroup>
   <ItemGroup>
@@ -85,5 +77,30 @@
       <Private>True</Private>
       <SuppressMissingDependenciesErrors>False</SuppressMissingDependenciesErrors>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Build Include="dbo\Tables\Calendar_CalendarItem.sql" />
+    <Build Include="dbo\Tables\Calendar_CalendarItemType.sql" />
+    <Build Include="dbo\Tables\Calendar_Task.sql" />
+    <Build Include="dbo\Tables\Calendar_SubTask.sql" />
+    <Build Include="dbo\Tables\Calendar_SubTaskType.sql" />
+    <Build Include="dbo\Tables\Calendar_RecurringItem.sql" />
+    <Build Include="dbo\Tables\Calendar_RecurringPlan.sql" />
+    <Build Include="dbo\Tables\Calendar_RecurringPlanType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_CreateCalendarItemType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_DeleteCalendarItemType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_EditCalendarItemType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_GetActiveCalendarItemTypes.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_CreateSubTaskType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_EditSubTaskType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_DeleteSubTaskType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_GetActiveSubTaskTypes.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_CreateRecurringPlanType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_EditRecurringPlanType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_DeleteRecurringPlanType.sql" />
+    <Build Include="dbo\Stored Procedures\spCalendar_GetActiveRecurringPlanTypes.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PlannerDatabaseLocal.publish.publish.xml" />
   </ItemGroup>
 </Project>
